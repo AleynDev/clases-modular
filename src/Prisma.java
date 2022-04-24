@@ -10,6 +10,13 @@ public class Prisma implements Comparable<Prisma> {
     String nombre;
 
     /**
+     * <h2>Constructor de la clase Prisma sin atributos</h2>
+     */
+    public Prisma() {
+
+    }
+
+    /**
      * <h2>Constructor de la clase Prisma con sus 3 atributos</h2>
      * @param baseTriangulo
      * @param alturaPrisma
