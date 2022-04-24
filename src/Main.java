@@ -21,6 +21,7 @@ public class Main {
         ArrayList<Prisma> listaPrismas = new ArrayList<>();
         int numPrismas = 3;
 
+        // Bucle para crear los Prismas
         for (int i = 0; i < numPrismas; i ++) {
             listaPrismas.add(new Prisma(generaNum(), generaNum(), "Prisma" + (i+1)));
         }
